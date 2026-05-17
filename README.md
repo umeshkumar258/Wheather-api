@@ -1,5 +1,8 @@
 # Weather API
 
+![build](https://github.com/umeshkumar258/Wheather-api/actions/workflows/nodejs.yml/badge.svg)
+![license](https://img.shields.io/badge/license-MIT-green)
+
 Simple demo: Node + Express backend serving a static frontend that fetches weather information.
 
 ## Description
@@ -76,6 +79,12 @@ gh repo create <your-repo> --public --source=. --remote=origin --push
 ## Suggested repository description
 
 "Minimal Weather API demo: Node/Express backend with a static frontend demonstrating weather lookup and fetch-based client calls. Good for learning and quick prototyping."
+
+## Continuous Integration
+
+This repository includes a GitHub Actions workflow that runs on pushes and pull requests against `main`. It installs dependencies and runs `npm test`.
+
+If you add tests later, CI will run them automatically.
 
 ## License
 
